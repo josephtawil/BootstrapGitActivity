@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css"/>
+
+    <title>Bootstrap gridding!</title>
+  </head>
+
+   <body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <div class="container"> <!--puts the text in a container-->
+        <h1>Bootstrap grid examples</h1> 
+        <!--Using the lead class tag will format the paragraph into a header format-->        
+        <p class="lead">This is going to make me a griding master.</p>
+    
+        <h3>There are 5 tiers to bootsraps gridding system.</h3>
+        <!--Bootstrap Griding Tiers-->
+        <!--we are putting the text in a row and seperating the text with 
+            4 columns in between. There are 12 colums in a computer screen.-->
+        <!--When using col-sm-4 then it will target a small screen-->
+        <div class="row">
+            <!--Three equal sized columns-->
+            <!--this will not change based on screen width-->
+            <div class="col-4">
+                <p></p>
+            </div>
+            <div class="col-4">
+                <p></p>
+            </div>
+            <div class="col-4">
+                <p></p>
+            </div>
+        </div>
+        <div class="row">
+            <!--this will target small screens and anything above 540px-->
+            <div class="col-sm-4">
+                <p></p>
+            </div>
+            <div class="col-sm-4">
+                <p></p>
+            </div>
+            <div class="col-sm-4">
+                <p></p>
+            </div>
+        </div>
+         <!--this will target medium screens and anything above 720px-->
+        <div class="row">
+            <div class="col-md-4">
+                <p></p>
+            </div>
+            <div class="col-md-4">
+                <p></p>
+            </div>
+            <div class="col-md-4">
+                <p></p>
+            </div>
+        </div>
+        <!--this will target large screens and anything above 960px-->
+        <div class="row">
+            <div class="col-lg-4">
+                <p></p>
+            </div>
+            <div class="col-lg-4">
+                <p></p>
+            </div>
+            <div class="col-lg-4">
+                <p></p>
+            </div>
+        </div>
+        <!--this will target extra large screens and anything above 1140px-->
+        <div class="row">
+            <div class="col-xl-4">
+                <p></p>
+            </div>
+            <div class="col-xl-4">
+                <p></p>
+            </div>
+            <div class="col-xl-4">
+                <p></p>
+            </div>
+        </div>
+        <!--These are examples of unequal sized columns-->
+    <h3>These are unequal sized columns</h3>
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-7"></div>
+        <div class="col-md-2"></div>
+    </div>
+    <!--This is two unequal sized columns-->
+    <div class="row">
+        <div class="col-md-8"></div>
+        <div class="col-md-4"></div>
+    </div>
+    <h3>Mobile Responsive</h3>
+    <div class="row">
+        <div class="col-sm-6 col-md-8"></div>
+        <div class="col-sm-6 col-md-8"></div>
+    </div>
+    <!--on a small screen take up 8 out of 12 spaces-->
+    <!--on a medium screen take up 12 spaces-->
+    <!--fix the error. To fix we add a medium column of 12 spaces to the first class
+        and a small column of 4 spaces.-->
+    <div class="row">
+        <div class="col-sm-8 col-md-12"></div>
+        <div class="col-sm-4 col-md-12"></div>
+    </div>
+
+    <!--offsetting!-->
+    <!--offseting a single row-->
+    <h3 class="text-center">offsetting a single row</h3>
+    <div class="row">
+        <div class="col-sm-8 offset-sm-2"></div>
+    </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
